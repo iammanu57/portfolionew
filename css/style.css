@@ -27,6 +27,9 @@ nav{
 	letter-spacing: 2px;
 	cursor: pointer;
 }
+a{
+	text-decoration: none;
+}
 span{
 	color: #f9004d;
 }
@@ -233,6 +236,36 @@ h5{
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
+}
+.work-panel{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+}
+.works-card{
+	margin: 1rem;
+	padding: 1rem;
+	background-color: #191919;
+	color: aliceblue;
+	border-radius: .2rem;
+	display: flex;
+	flex-direction: row;
+}
+.works-card img{
+	width: 50%;
+}
+.works-card .text{
+	width: 50%;
+	text-align: center;
+	padding: 1rem;
+}
+.work-title{
+	font-size: 2rem;
+	font-weight: 700;
+}
+.work-text{
+	margin: 1rem;
 }
 
 footer{
